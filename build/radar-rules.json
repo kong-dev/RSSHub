@@ -1683,21 +1683,26 @@
       }
     ]
   },
-  "asus.com.cn": {
+  "asus.com": {
     "_name": "ASUS",
-    ".": [
+    "www": [
       {
         "title": "BIOS",
         "docs": "https://docs.rsshub.app/routes/program-update",
         "source": [
+          "/displays-desktops/:productLine/:series/:model",
+          "/laptops/:productLine/:series/:model",
+          "/motherboards-components/:productLine/:series/:model",
+          "/networking-iot-servers/:productLine/:series/:model",
+          "/:region/displays-desktops/:productLine/:series/:model",
+          "/:region/laptops/:productLine/:series/:model",
+          "/:region/motherboards-components/:productLine/:series/:model",
+          "/:region/networking-iot-servers/:productLine/:series/:model",
           "/"
         ],
-        "target": "/asus/bios/:model/:lang?"
+        "target": "/asus/bios/:model"
       }
-    ]
-  },
-  "asus.com": {
-    "_name": "ASUS",
+    ],
     ".": [
       {
         "title": "GPU Tweak",
@@ -5759,6 +5764,19 @@
       }
     ]
   },
+  "dykszx.com": {
+    "_name": "德阳人事考试网",
+    "www": [
+      {
+        "title": "考试新闻发布",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/"
+        ],
+        "target": "/dykszx/news/all"
+      }
+    ]
+  },
   "eagle.cool": {
     "_name": "Eagle",
     "cn": [
@@ -9492,7 +9510,7 @@
     "_name": "Hacker News",
     "news": [
       {
-        "title": "用户",
+        "title": "User",
         "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
           "/:section",
@@ -17440,6 +17458,19 @@
           "/"
         ],
         "target": "/nytimes/:lang?"
+      }
+    ]
+  },
+  "obsidian.md": {
+    "_name": "Obsidian",
+    "publish": [
+      {
+        "title": "Publish",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/obsidian/publish/:id"
       }
     ]
   },

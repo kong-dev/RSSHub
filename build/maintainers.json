@@ -1884,6 +1884,9 @@
   "/dxy/bbs/profile/thread/:userId": [
     "TonyRL"
   ],
+  "/dykszx/news/:newsType?": [
+    "zytomorrow"
+  ],
   "/e-hentai/:what?/:id?/:needTorrents?/:needImages?": [],
   "/eagle/blog/:cate?/:language?": [
     "Fatpandac"
@@ -3910,7 +3913,8 @@
     "TonyRL"
   ],
   "/mastodon/account_id/:site/:account_id/statuses/:only_media?": [
-    "notofoe"
+    "notofoe",
+    "pseudoyu"
   ],
   "/mastodon/acct/:acct/statuses/:only_media?": [
     "notofoe"
@@ -4596,6 +4600,9 @@
   ],
   "/nytimes/:lang?": [
     "HenryQW"
+  ],
+  "/obsidian/publish/:id": [
+    "Xy2002"
   ],
   "/oceanengine/index/:keyword/:channel?": [
     "Jkker"
